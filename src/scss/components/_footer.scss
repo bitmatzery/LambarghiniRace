@@ -1,0 +1,60 @@
+.footer {
+  padding: 100px 0 80px;
+  background-color: $black-title;
+  color: $white;
+
+  &__title {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 32px;
+    margin-bottom: 50px;
+  }
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 20px;
+  }
+
+  &__info-item {
+    margin-bottom: 40px;
+  }
+
+  &__info-item dt,
+  &__address-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  &__info-item dd {
+    margin-bottom: 10px;
+  }
+
+  &__address {
+    flex-basis: 462px;
+  }
+
+  &__address-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  &__bottom {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.social-list {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+#map {
+  height: 250px;
+}

@@ -1,0 +1,66 @@
+.info {
+  margin-bottom: 100px;
+
+  &__part {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__part--first {
+    display: block;
+  }
+
+  &__part--second .info__text {
+    max-width: 352px;
+  }
+
+  &__part--third .info__text {
+    max-width: 377px;
+  }
+
+  &__part--third {
+    padding-top: 66px;
+  }
+
+  &__title {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 32px;
+  }
+
+  &__part-textbox {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 20px;
+  }
+
+  &__text {
+    flex-basis: 440px;
+    margin-bottom: 30px;
+  }
+
+  &__content {
+    flex-basis: 415px;
+  }
+
+  &__table {
+    flex-basis: 450px;
+    border-bottom: 1px solid $black-default;
+    position: relative;
+    top: 20px;
+  }
+
+  &__table::before {
+    content: "";
+    border-top: 1px solid $black-default;
+    position: absolute;
+    width: 100%;
+    top: -20px;
+  }
+
+  &__table td {
+    padding-bottom: 20px;
+  }
+}

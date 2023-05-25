@@ -1,0 +1,331 @@
+@media (max-width: 930px) {
+  .evo-white {
+    &__inner::before,
+    &__inner::after {
+      background-repeat: no-repeat;
+    }
+
+    &__inner::before {
+      background-size: 80%;
+      top: -40px;
+      left: 360px;
+    }
+
+    &__inner::after {
+      background-size: 80%;
+      top: 115px;
+      left: 500px;
+    }
+  }
+}
+
+@media (max-width: 840px) {
+  .info {
+    &__part--first .info-part-img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+
+    &__part--second {
+      align-items: center;
+    }
+  }
+
+  .blog {
+    &__quote {
+      align-items: center;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .track {
+    &__img {
+      width: 100%;
+    }
+  }
+
+  .evo-white {
+    &__inner::before {
+      background-size: 75%;
+      top: -40px;
+      left: 320px;
+    }
+
+    &__inner::after {
+      background-size: 75%;
+      top: 115px;
+      left: 420px;
+    }
+  }
+}
+
+@media (max-width: 740px) {
+  .menu-list {
+    gap: 0 20px;
+  }
+
+  .evo-black {
+    &__img {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .info {
+    &__part--second {
+      flex-direction: column;
+    }
+  }
+
+  .evo {
+    &__descr-list {
+      gap: 0 25px;
+    }
+  }
+
+  .evo-white {
+    &__inner::before {
+      background-size: 70%;
+      top: -40px;
+      left: 350px;
+    }
+
+    &__inner::after {
+      background-size: 70%;
+      top: 115px;
+      left: 420px;
+    }
+  }
+
+  .blog {
+    &__quote {
+      flex-direction: column;
+    }
+
+    &__quote-box {
+      flex-basis: auto;
+    }
+  }
+}
+
+@media (max-width: 660px) {
+  .evo-white {
+    &__inner::before {
+      background-size: 60%;
+      top: -40px;
+      left: 300px;
+    }
+
+    &__inner::after {
+      background-size: 60%;
+      top: 80px;
+      left: 400px;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .menu-list {
+    display: block;
+  }
+
+  .promo {
+    &__inner {
+      padding-top: 130px;
+    }
+  }
+
+  .title {
+    font-size: 62px;
+  }
+
+  .subtitle {
+    font-size: 38px;
+  }
+
+  .subtitle span {
+    font-size: 24px;
+  }
+
+  .info {
+    &__title {
+      margin-bottom: 20px;
+      font-size: 22px;
+    }
+  }
+}
+
+@media (max-width: 580px) {
+  .evo-white {
+    &__inner::after {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 520px) {
+  .menu-right {
+    padding-right: 25px;
+  }
+
+  .info {
+    &__part--third {
+      display: block;
+    }
+  }
+
+  .evo {
+    &__descr-list {
+      font-size: 12px;
+    }
+  }
+
+  .evo-white {
+    &__inner::before {
+      top: -20px;
+      left: 210px;
+    }
+  }
+}
+
+@media (max-width: 460px) {
+  .menu-left {
+    padding-left: 5px;
+  }
+
+  .menu-right {
+    padding-right: 0;
+    padding-left: 10px;
+  }
+
+  .evo {
+    &__descr-list {
+      gap: 0 10px;
+    }
+  }
+
+  .footer {
+    &__top {
+      flex-direction: column;
+    }
+
+    &__title,
+    &__info {
+      text-align: center;
+    }
+
+    &__address {
+      flex-basis: 0;
+    }
+
+    &__bottom-link {
+      text-align: center;
+    }
+  }
+
+  .social-list {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 430px) {
+  .promo {
+    &__inner {
+      padding-top: 150px;
+    }
+  }
+  .title {
+    font-size: 52px;
+  }
+
+  .subtitle {
+    font-size: 32px;
+  }
+
+  .logo-img {
+    margin-top: 30px;
+  }
+
+  .evo {
+    &__descr-list {
+      font-size: 14px;
+      flex-direction: column;
+      margin-left: 30%;
+      gap: 10px 0;
+    }
+  }
+
+  .evo-black {
+    &__info {
+      flex-direction: column;
+      gap: 20px 0;
+      padding-bottom: 0px;
+    }
+
+    &__info-box {
+      flex-basis: 0;
+    }
+
+    &__inner::before,
+    &__inner::after {
+      background-repeat: no-repeat;
+    }
+
+    &__inner::before {
+      top: 37%;
+      left: 10%;
+      background-size: 70%;
+      background-repeat: no-repeat;
+    }
+
+    &__inner::after {
+      top: 50%;
+      left: 30%;
+      background-size: 40%;
+      background-repeat: no-repeat;
+    }
+  }
+
+  .evo-white {
+    &__inner::before {
+      top: -120px;
+      left: 210px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .evo-white {
+    &__inner::before {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 340px) {
+  .info {
+    &__part--third {
+      display: block;
+    }
+  }
+
+  .evo {
+    &__descr-list {
+      margin-left: 5%;
+    }
+  }
+
+  .evo-black {
+    &__inner::before {
+      top: 43%;
+      left: 10%;
+    }
+
+    &__inner::after {
+      top: 56%;
+      left: 30%;
+    }
+  }
+}

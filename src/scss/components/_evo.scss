@@ -1,0 +1,130 @@
+.evo {
+  font-size: 14px;
+  margin-bottom: 100px;
+
+  &__descr-list {
+    display: flex;
+    justify-content: center;
+    gap: 0 65px;
+  }
+
+  &__descr-list dd {
+    text-transform: uppercase;
+  }
+}
+
+.evo-black {
+  background-color: $black-title;
+  padding: 100px 0 50px;
+  color: $white;
+
+  &__inner {
+    position: relative;
+  }
+
+  &__inner::before {
+    content: "";
+    background-image: url(../img/evo/dec-1.svg);
+    width: 185px;
+    height: 213px;
+    top: 210px;
+    left: -130px;
+    position: absolute;
+  }
+
+  &__inner::after {
+    content: "";
+    background-image: url(../img/evo/dec-2.svg);
+    width: 498px;
+    height: 572px;
+    top: 290px;
+    left: -40px;
+    position: absolute;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 32px;
+    padding-right: 50px;
+  }
+
+  &__info-box {
+    flex-basis: 437px;
+  }
+
+  &__text {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
+  &__img {
+    display: block;
+    margin: 170px auto 60px;
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.evo-white {
+  &__inner {
+    padding-top: 125px;
+    position: relative;
+  }
+
+  &__inner::before {
+    content: "";
+    background-image: url(../img/evo/dec-3.png);
+    width: 274px;
+    height: 257px;
+    top: -40px;
+    left: 360px;
+    position: absolute;
+  }
+
+  &__inner::after {
+    content: "";
+    background-image: url(../img/evo/dec-4.png);
+    width: 324px;
+    height: 311px;
+    top: 115px;
+    left: 600px;
+    position: absolute;
+  }
+
+  &__text {
+    margin-bottom: 30px;
+  }
+
+  &__text:first-child {
+    max-width: 285px;
+  }
+
+  &__text:nth-child(2) {
+    max-width: 437px;
+  }
+
+  &__text:nth-child(3) {
+    max-width: 590px;
+  }
+
+  &__video {
+    margin-top: 100px;
+    background: url(../img/evo/evo-video.png) center / cover no-repeat;
+    height: 264px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  &__video-link span {
+    display: block;
+    color: $white;
+  }
+}

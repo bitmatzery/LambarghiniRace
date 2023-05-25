@@ -1,0 +1,26 @@
+:root {
+  // base
+  --content-width: 900px;
+  --content-max-width: 1200px;
+  --container-offset: 10px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+  --container-max-width: calc(var(--content-max-width) + (var(--container-offset) * 2));
+}
+
+// fonts
+$font-family: "Roboto Condensed", sans-serif;
+$font-family-title: "impact", sans-serif;
+
+// %title-font {
+//   font-family: "impact", sans-serif;
+//   font-weight: 700;
+// }
+
+// color
+$white: #fff;
+$black: #000;
+$black-title: #363636;
+$black-default: #040404;
+$blue: #0093a1;
+$gold: #9f6b08;
+$ligth-green: #b9c400;
